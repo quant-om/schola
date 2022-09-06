@@ -1,5 +1,5 @@
 # Python basic data types
-# int datatype
+# Integer datatype
 a = 6
 b = 8
 print(f"Integer = {a}")
@@ -11,7 +11,7 @@ print(f"the number is {a}")
 print(f"the type of the value is {type(a)}")
 
 
-# str datatype
+# string datatype
 a = "happy"
 b = "-8"
 print(f"The string values are {a} and {b}")
