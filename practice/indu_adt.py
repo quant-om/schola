@@ -32,10 +32,10 @@ for val in mytuple1:
 dict1 = dict()
 dict2 = {}
 dict2 = {
-    "int" : 0,
-    "float" : 1,
-    "string" : 2,
-    "bool" : 3
+    "zero" : 0,
+    "one" : 1,
+    "two" : 2,
+    "three" : 3
 }
 print(f"dict2 = {dict2}")
 
@@ -49,7 +49,7 @@ for key in dict2 :
     print(f"The key = {key}, val = {dict2[key]}")
 
 # Add a new element to dict2
-dict2["None"] = 4
+dict2["four"] = 4
 for keys in dict2 :
     print(f"Key = {keys}, val = {dict2[keys]}")
 
