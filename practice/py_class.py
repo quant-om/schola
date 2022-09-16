@@ -20,6 +20,17 @@ class Car:
         car_year = 2021
         car_types = []
 
+    def print_car(self):
+        print('The car model is maruti brezza')
 
-mylist = list()
+    def brake_car(self):
+        # This function will brake the car
+        brake = True
+        # Put brakes and exit from this function/method.
+        print("Brakes applied, hence car stopped.")
+
 myCar = Car()
+
+myCar.print_car()
+myCar.brake_car()
+
