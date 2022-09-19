@@ -20,6 +20,13 @@ class Car:
         car_year = 2021
         car_types = []
 
+def print_car(self):
+    print("The car model is Maruti brezza")
 
-mylist = list()
+
+
 myCar = Car()
+
+
+myCar.print_car()
+
